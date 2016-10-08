@@ -1,10 +1,10 @@
 'use strict';
 
-var ZoneCtrl = function($scope,$location, dataService) {
+var ZoneCtrl = function($scope, $location, $routeParams, dataService) {
 
-    $scope.zones = dataService.getZones();
-    
+    $scope.zone = dataService.getZone($routeParams.id);
+
 };
 
 angular.module('petrusProjectApp')
-.controller('ZoneCtrl', ['$scope', '$location', 'dataService', ZoneCtrl]);
+.controller('ZoneCtrl', ['$scope', '$location', '$routeParams', 'dataService', ZoneCtrl]);

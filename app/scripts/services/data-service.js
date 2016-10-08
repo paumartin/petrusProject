@@ -7,7 +7,7 @@ var dataService = function($http,$q){
 	this.zones = [{
 		name: 'zone 1',
 		id: '1',
-		inf: {
+		inf: [{
 			title: '',
 			action: [
 				'',
@@ -22,7 +22,7 @@ var dataService = function($http,$q){
 				'',
 				''
 			]
-		},
+		}],
 	},
 	{
 		name: 'zone 2',
@@ -49,6 +49,10 @@ var dataService = function($http,$q){
 	this.getZones = function(){
 		return self.zones;
 	};
+
+	this.getZone = function(id){
+		return self.zones[id-1];
+	}
 
 };
 
