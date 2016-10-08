@@ -6,7 +6,7 @@ var MainCtrl = function($scope,$location, dataService) {
 
     $scope.goToZone = function(id){
       $location.path( '/zone/'+id );
-    }
+    };
 };
 
 angular.module('petrusProjectApp')

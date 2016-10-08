@@ -6,8 +6,23 @@ var dataService = function($http,$q){
 
 	this.zones = [{
 		name: 'zone 1',
-		id: '1'
-		inf: ''
+		id: '1',
+		inf: {
+			title: '',
+			action: [
+				'',
+				'',
+				''
+			]
+		},
+		{
+			title: '',
+			action: [
+				'',
+				'',
+				''
+			]
+		},
 	},
 	{
 		name: 'zone 2',
