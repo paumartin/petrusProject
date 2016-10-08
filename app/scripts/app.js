@@ -28,6 +28,10 @@ angular
         templateUrl: 'views/zone.html',
         controller: 'ZoneCtrl'
       })
+      .when('/zone/:id/revisio',{
+        templateUrl: 'views/revisio.html',
+        controller: 'RevisioController'
+      })
       .otherwise({
         redirectTo: '/'
       });
