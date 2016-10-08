@@ -15,3 +15,10 @@ body {
   width: 184px;
   height: 95px;
 }
+.centeredText{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mainContainer{
+  margin-top: 2em;
+}

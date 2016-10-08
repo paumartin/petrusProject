@@ -24,6 +24,11 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/zone/:id',{
+        templateUrl: 'views/zone.html',
+        controller: 'ZoneCtrl',
+        controllerAs: 'zone'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -1,7 +1,7 @@
 <div>
   <div class="col-md-4" ng-repeat="zone in zones">
-    <div class="zoneDiv">
-      <h1>{{zone.name}}</h1>
+    <div class="zoneDiv text-center">
+      <h1 class="centeredText" ng-click="goToZone(zone.id)">{{zone.name}}</h1>
     </div>
   </div>
 </div>
