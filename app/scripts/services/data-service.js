@@ -5,44 +5,139 @@ var dataService = function($http,$q){
 	var self = this;
 
 	this.zones = [{
-		name: 'zone 1',
+		name: 'Zona 1',
 		id: '1',
 		inf: [{
-			title: '',
+			title: 'Ordinadors Sala de Formació Planta 2',
 			action: [
-				'',
-				'',
-				''
+				'Revisar estat dels perifèrics (teclat, ratolí i altaveus)',
+				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+				'Revisar ordinadors (Windows, Office, etc.)',
+				'Revisar connexió amb el canó i correcte funcionament del projector',
+				'Revisar identificació de rosetes',
+				'Revisar estat funcionament de rosetes i endolls'
 			]
 		},
 		{
-			title: '',
+			title: 'Punts de treball Sala de Reunions Planta 2',
 			action: [
-				'',
-				'',
-				''
+				'Revisar funcionament de rosetes i endolls',
+				'Revisar identificació de rosetes',
+				'Revisar connexió amb el canó i correcte funcionament del projector'
+			]
+		},
+		{
+			title: 'Punts de treball Fons Infantil Planta 2',
+			action: [
+				'Revisar funcionament de rosetes i endolls',
+				'Revisar identificació de rosetes'
+			]
+		},
+		{
+			title: 'Sales de Treball Planta 2',
+			action: [
+				'Revisar funcionament de rosetes i endolls',
+				'Revisar identificació de rosetes'
+			]
+		},
+		{
+			title: 'Sales de Treball Planta 1',
+			action: [
+				'Revisar estat dels perifèrics (teclat, ratolí i altaveus)',
+				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+				'Revisar identificació rosetes',
+				'Revisar ordinadors (Windows, Office, etc.)',
+				'Revisar funcionament de rosetes i endolls',
+				'Revisar identificació i estat físic de les taules'
 			]
 		}],
 	},
 	{
-		name: 'zone 2',
-		id: '2'
+		name: 'Zona 2',
+		id: '2',
+		inf: [{
+			title: 'Ordinadors Planta 1',
+			action: [
+				'Revisar estat dels perifèrics (teclat, ratolí i altaveus)',
+				'Revisar cables de connexió (endoll i cable de connexió a a la xarxa)',
+				'Revisar ordinadors (Windows, Office, etc.)',
+				'Revisar identificació de rosetes',
+				'Revisar funcionament de rosetes i endolls'
+			]
+		},
+		{
+			title: 'Ordinadors OPACS Planta 1',
+			action: [
+				'Revisar estat dels perifèrics (teclat i ratolí)',
+				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+				'Revisar identificació de rosetes',
+				'Revisar funcionament de rosetes'
+			]
+		},
+		{
+			title: 'Ordinadors EAL',
+			action: [
+				'Revisar estat dels perifèrics (teclat, ratolí i altaveus)',
+				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+				'Revisar ordinadors (Windows, Office, etc.)',
+				'Revisar identificació de rosetes'
+			]
+		},
+		{
+			title: 'Punts de Treball Planta 1',
+			action: [
+				'Revisar funcionament de rosetes i endolls',
+				'Revisar identificació de rosetes',
+				'Revisar identificació i estat físic de les taules'
+			]
+		}],
 	},
 	{
-		name: 'zone 3',
-		id: '3'
-	},
+		name: 'Zona 3',
+		id: '3',
+		inf: [{
+			title: 'Punts de treball Planta 0',
+			action: [
+				'Revisar funcionament de rosetes i endolls',
+				'Revisar identificació de rosetes',
+				'Revisar identificació i estat físic de les taules'
+			]
+		},
+		{
+			title: 'Ordinadors OPACS Planta 0',
+			action: [
+				'Revisar estat dels perifèrics (teclat i ratolí)',
+				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+				'Revisar identificació de rosetes'
+			]
+		},
+		{
+			title: 'Punts de treball Planta 2',
+			action: [
+				'Revisar funcionament de rosetes',
+				'Revisar identificació de rosetes',
+				'Revisar identificació i estat físic de les taules'
+			]
+		},
+		{
+			title: 'Ordinadors OPACS Planta 2',
+			action: [
+				'Revisar estat dels perifèrics (teclat i ratolí)',
+				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+				'Revisar identificació de rosetes'
+	]},
 	{
 		name: 'zone 4',
-		id: '4'
+		id: '4',
 	},
 	{
 		name: 'zone 5',
-		id: '5'
-	},
+		id: '5',
+	}
+]},
 	{
 		name: 'zone 6',
-		id: '6'
+		id: '6',
 	}
 	];
 
@@ -52,7 +147,7 @@ var dataService = function($http,$q){
 
 	this.getZone = function(id){
 		return self.zones[id-1];
-	}
+	};
 
 };
 
