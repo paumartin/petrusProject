@@ -127,12 +127,34 @@ var dataService = function($http,$q){
 				'Revisar identificació de rosetes'
 	}],
 	{
-		name: 'zone 4',
+		name: 'Zona 4',
 		id: '4'
-	},
+		inf: [{
+			title: 'Ordinadors Aula Informàtica del P0-01 al P0-56',
+			action: [
+				'Revisar estat dels perifèrics (teclat, ratolí i altaveus)',
+				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+				'Revisar ordinadors (Windows, Office, etc.)',
+				'Revisar identificació i funcionament rosetes',
+				'Revisar identificació i estat físic de les taules'
+	}],
 	{
 		name: 'zone 5',
 		id: '5'
+		inf: [{
+			title: 'Ordinadors Aula Informàtica del P0-57 al P0-104',
+			action: [
+				'Revisar estat dels perifèrics (teclat, ratolí i altaveus)',
+				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+				'Revisar ordinadors (Windows, Office, etc.)',
+				'Revisar identificació i funcionament rosetes',
+				'Revisar identificació i estat físic de les taules'
+			]
+		},
+		{
+			title: 'Rosetes ordinadors Aula d\'Informàtica',
+			action: [
+				'Revisar estat i identificació rosetes'
 	}],
 	{
 		name: 'zone 6',
