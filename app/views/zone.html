@@ -1,16 +1,26 @@
-<div class="mainContainer">
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Informació</h1>
-      <div ng-repeat="elem in zone.inf">
-        <h2>{{elem.title}}</h2>
-        <ul>
-          <li ng-repeat="point in elem.action">
-            {{point}}
-          </li>
-        </ul>
-      </div>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Començar</a></p>
-    </div>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">Info</a></li>
+    <li role="presentation"><a href="#">Revisió</a></li>
+    <li role="presentation"><a href="#">Incidències</a></li>
+  </ul>
+  <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane fade" id="revision">Content inside tab B</div>
+        <div class="tab-pane fade" id="issues">Content inside tab C</div>
+        <div class="mainContainer">
+          <div class="tab-pane fade in active jumbotron" id="info">
+            <h1>Informació</h1>
+            <div ng-repeat="elem in zone.inf">
+              <h2>{{elem.title}}</h2>
+              <ul>
+                <li ng-repeat="point in elem.action">
+                  {{point}}
+                </li>
+              </ul>
+            </div>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Començar</a></p>
+          </div>
+        </div>
   </div>
 </div>
