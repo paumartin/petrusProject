@@ -26,8 +26,7 @@ angular
       })
       .when('/zone/:id',{
         templateUrl: 'views/zone.html',
-        controller: 'ZoneCtrl',
-        controllerAs: 'zone'
+        controller: 'ZoneCtrl'
       })
       .otherwise({
         redirectTo: '/'
