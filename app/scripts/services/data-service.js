@@ -54,7 +54,7 @@ var dataService = function($http,$q){
 	},
 	{
 		name: 'Zona 2',
-		id: '2'
+		id: '2',
 		inf: [{
 			title: 'Ordinadors Planta 1',
 			action: [
@@ -94,7 +94,7 @@ var dataService = function($http,$q){
 	},
 	{
 		name: 'Zona 3',
-		id: '3'
+		id: '3',
 		inf: [{
 			title: 'Punts de treball Planta 0',
 			action: [
@@ -125,8 +125,9 @@ var dataService = function($http,$q){
 				'Revisar estat dels perifèrics (teclat i ratolí)',
 				'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
 				'Revisar identificació de rosetes'
-	}],
+	]},
 	{
+<<<<<<< HEAD
 		name: 'Zona 4',
 		id: '4'
 		inf: [{
@@ -155,15 +156,48 @@ var dataService = function($http,$q){
 			title: 'Rosetes ordinadors Aula d\'Informàtica',
 			action: [
 				'Revisar estat i identificació rosetes'
-	}],
+	}]},	{
+			name: 'Zona 4',
+			id: '4'
+			inf: [{
+				title: 'Ordinadors Aula Informàtica del P0-01 al P0-56',
+				action: [
+					'Revisar estat dels perifèrics (teclat, ratolí i altaveus)',
+					'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+					'Revisar ordinadors (Windows, Office, etc.)',
+					'Revisar identificació i funcionament rosetes',
+					'Revisar identificació i estat físic de les taules'
+		}]},
+		{
+			name: 'Zona 5',
+			id: '5'
+			inf: [{
+				title: 'Ordinadors Aula Informàtica del P0-57 al P0-104',
+				action: [
+					'Revisar estat dels perifèrics (teclat, ratolí i altaveus)',
+					'Revisar cables de connexió (endoll i cable de connexió a la xarxa)',
+					'Revisar ordinadors (Windows, Office, etc.)',
+					'Revisar identificació i funcionament rosetes',
+					'Revisar identificació i estat físic de les taules'
+				]
+			},
+			{
+				title: 'Rosetes ordinadors Aula d\'Informàtica',
+				action: [
+					'Revisar estat i identificació rosetes'
+		}]},
 	{
 		name: 'zone 6',
-		id: '6'
+		id: '6',
 	}
 	];
 
 	this.getZones = function(){
 		return self.zones;
+	};
+
+	this.getZone = function(id){
+		return self.zones[id-1];
 	};
 
 };
