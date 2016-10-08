@@ -1,0 +1,48 @@
+{
+	"name": "Zona 1",
+	"id": "1",
+	"inf": [{
+		"title": "Ordinadors Sala de Formació Planta 2",
+		"action": [
+			"Revisar estat dels perifèrics (teclat, ratolí i altaveus)",
+			"Revisar cables de connexió (endoll i cable de connexió a la xarxa)",
+			"Revisar ordinadors (Windows, Office, etc.)",
+			"Revisar connexió amb el canó i correcte funcionament del projector",
+			"Revisar identificació de rosetes",
+			"Revisar estat funcionament de rosetes i endolls"
+		]
+	},
+	{
+		"title": "Punts de treball Sala de Reunions Planta 2",
+		"action": [
+			"Revisar funcionament de rosetes i endolls",
+			"Revisar identificació de rosetes",
+			"Revisar connexió amb el canó i correcte funcionament del projector"
+		]
+	},
+	{
+		"title": "Punts de treball Fons Infantil Planta 2",
+		"action": [
+			"Revisar funcionament de rosetes i endolls",
+			"Revisar identificació de rosetes"
+		]
+	},
+	{
+		"title": "Sales de Treball Planta 2",
+		"action": [
+			"Revisar funcionament de rosetes i endolls",
+			"Revisar identificació de rosetes"
+		]
+	},
+	{
+		"title": "Sales de Treball Planta 1",
+		"action": [
+			"Revisar estat dels perifèrics (teclat, ratolí i altaveus)",
+			"Revisar cables de connexió (endoll i cable de connexió a la xarxa)",
+			"Revisar identificació rosetes",
+			"Revisar ordinadors (Windows, Office, etc.)",
+			"Revisar funcionament de rosetes i endolls",
+			"Revisar identificació i estat físic de les taules"
+		]
+	}]
+}

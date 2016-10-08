@@ -1,0 +1,14 @@
+{
+	"name": "Zona 4",
+	"id": "4",
+	"inf": [{
+		"title": "Ordinadors Aula Informàtica del P0-01 al P0-56",
+		"action": [
+			"Revisar estat dels perifèrics (teclat, ratolí i altaveus)",
+			"Revisar cables de connexió (endoll i cable de connexió a la xarxa)",
+			"Revisar ordinadors (Windows, Office, etc.)",
+			"Revisar identificació i funcionament rosetes",
+			"Revisar identificació i estat físic de les taules"
+		]
+	}]
+}

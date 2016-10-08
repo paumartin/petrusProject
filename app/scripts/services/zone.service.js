@@ -1,6 +1,4 @@
-  angular.module('petrusProjectApp').service('DataService',
-		  ['$http', '$location', 
-		   function($http, $location) {
+angular.module('petrusProjectApp').service('ZoneService', ['$http', '$location', 'DataService', function($http, $location, DataService) {
 
     // this.httpGetFunction = function(url) {
     //   $http.defaults.headers.common[$http.defaults.xsrfHeaderName]=$cookies[$http.defaults.xsrfCookieName];
@@ -19,10 +17,7 @@
     //   return $http.delete(API_URL+url);
     // };
 
-    this.locationChangeFunction = function(url) {
-      $location.path(url);
+    this.getZone = function(zone) {
+        return $http.get('http://localhost:8000/data/zone' + zone + '.json');
     };
-    this.localGetJson = function(url){
-    	return $http.get('http://localhost:8000/data/zone' + url + '.json');
-    };
-  }]);
+}]);

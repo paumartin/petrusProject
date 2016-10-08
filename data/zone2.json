@@ -1,0 +1,40 @@
+{
+	"name": "Zona 2",
+	"id": "2",
+	"inf": [{
+		"title": "Ordinadors Planta 1",
+		"action": [
+			"Revisar estat dels perifèrics (teclat, ratolí i altaveus)",
+			"Revisar cables de connexió (endoll i cable de connexió a a la xarxa)",
+			"Revisar ordinadors (Windows, Office, etc.)",
+			"Revisar identificació de rosetes",
+			"Revisar funcionament de rosetes i endolls"
+		]
+	},
+	{
+		"title": "Ordinadors OPACS Planta 1",
+		"action": [
+			"Revisar estat dels perifèrics (teclat i ratolí)",
+			"Revisar cables de connexió (endoll i cable de connexió a la xarxa)",
+			"Revisar identificació de rosetes",
+			"Revisar funcionament de rosetes"
+		]
+	},
+	{
+		"title": "Ordinadors EAL",
+		"action": [
+			"Revisar estat dels perifèrics (teclat, ratolí i altaveus)",
+			"Revisar cables de connexió (endoll i cable de connexió a la xarxa)",
+			"Revisar ordinadors (Windows, Office, etc.)",
+			"Revisar identificació de rosetes"
+		]
+	},
+	{
+		"title": "Punts de Treball Planta 1",
+		"action": [
+			"Revisar funcionament de rosetes i endolls",
+			"Revisar identificació de rosetes",
+			"Revisar identificació i estat físic de les taules"
+		]
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Zona 3",
+	"id": "3",
+	"inf": [{
+		"title": "Punts de treball Planta 0",
+		"action": [
+			"Revisar funcionament de rosetes i endolls",
+			"Revisar identificació de rosetes",
+			"Revisar identificació i estat físic de les taules"
+		]
+	},
+	{
+		"title": "Ordinadors OPACS Planta 0",
+		"action": [
+			"Revisar estat dels perifèrics (teclat i ratolí)",
+			"Revisar cables de connexió (endoll i cable de connexió a la xarxa)",
+			"Revisar identificació de rosetes"
+		]
+	},
+	{
+		"title": "Punts de treball Planta 2",
+		"action": [
+			"Revisar funcionament de rosetes",
+			"Revisar identificació de rosetes",
+			"Revisar identificació i estat físic de les taules"
+		]
+	},
+	{
+		"title": "Ordinadors OPACS Planta 2",
+		"action": [
+			"Revisar estat dels perifèrics (teclat i ratolí)",
+			"Revisar cables de connexió (endoll i cable de connexió a la xarxa)",
+			"Revisar identificació de rosetes"
+		]
+	}],
+}
